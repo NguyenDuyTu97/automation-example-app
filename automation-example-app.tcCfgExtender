@@ -21,9 +21,13 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{37344A10-A7AD-4C94-AF9D-E1A3642ECEBA}"/>
+				<Prp name="activity" type="S" value="{8B7D2E7B-5722-4142-A899-AC6A53067D7A}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{4fa3f1c5-5fb3-4c76-a636-cd409cacf942}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace"/>
 			</Node>
@@ -53,6 +57,9 @@
 						<Node name="keywordtests"/>
 						<Node name="script"/>
 					</Node>
+				</Node>
+				<Node name="automation-example-app logs">
+					<Node name="automation-example-app logs"/>
 				</Node>
 			</Node>
 		</Node>
