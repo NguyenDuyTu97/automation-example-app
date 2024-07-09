@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{16964ADF-C34E-40AE-9CEA-386C90B2BCC2}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{22E345B7-57A4-4918-8935-6877C2436D2B}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{D80EFF78-248E-4F53-BA1E-A7460C2B649A}">
+								<Image FileName="-1334205561" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{FF71BEDD-634D-42D2-A645-5C816929E707}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{0EADFB7F-543C-4C38-94AE-E0602DD92B21}">
+								<Image FileName="-2018429831" Left="0" Top="0" Right="400" Bottom="344" />
+								<TypeInfo Item0="{2EEF755F-CD08-43DD-ADED-55F0F7F892E7}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="page20nine" Key="{40A17EE8-3C32-4891-B87B-6BA596E96F0D}">
+								<Image FileName="61193075" Left="0" Top="87" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://fe-dev.20-nine.com/sign-in*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formRememberMe" Key="{540FA2C4-8E80-412E-9EE7-6ECEF9D30B8C}">
+										<Image FileName="61193075" Left="775" Top="495" Right="1145" Bottom="680" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Remember me&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ui&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{014EA831-B317-4C5D-8B6D-23C7B4990147}">
+										<Image FileName="61193075" Left="775" Top="495" Right="1145" Bottom="533" />
+										<TypeInfo Item0="{72F6453F-D2E2-4491-9190-416C861B01CE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogin" Key="{44B0F5F9-34CE-4F7F-B682-72DB657B74C7}">
+										<Image FileName="616110223" Left="775" Top="646" Right="1145" Bottom="680" />
+										<TypeInfo Item0="{8F14DBCA-1F3A-4CE8-A131-02F8B2A91BEA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//button[contains(@class, &apos;ui&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{22E345B7-57A4-4918-8935-6877C2436D2B}">
+			<Child Name="BrowserWindow" Owner="{D80EFF78-248E-4F53-BA1E-A7460C2B649A}" />
+			<Child Name="wndChrome_WidgetWin_1" Owner="{0EADFB7F-543C-4C38-94AE-E0602DD92B21}" />
+			<Child Name="page20nine" Owner="{40A17EE8-3C32-4891-B87B-6BA596E96F0D}">
+				<Child Name="formRememberMe" Owner="{540FA2C4-8E80-412E-9EE7-6ECEF9D30B8C}">
+					<Child Name="textbox" Owner="{014EA831-B317-4C5D-8B6D-23C7B4990147}" />
+					<Child Name="buttonLogin" Owner="{44B0F5F9-34CE-4F7F-B682-72DB657B74C7}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

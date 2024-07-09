@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{A8217311-B42E-406D-8193-9A223167FC43}">
+	<children>
+		<child name="automation-example-app" key="{8B7D2E7B-5722-4142-A899-AC6A53067D7A}" path="automation-example-app\automation-example-app.mds" />
+	</children>
+	<testItems key="{444DF244-21DC-4092-B24D-A5E581AC1970}">
+		<children>
+			<testItem key="{8B7D2E7B-5722-4142-A899-AC6A53067D7A}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{252E5F05-8525-4C3F-8CB0-BB40D9DCB3CC}" />
+	<analysis key="{50F7D0BC-6A0B-454E-BEF1-E82F8E524D1D}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
